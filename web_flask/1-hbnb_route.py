@@ -16,7 +16,9 @@ def hello_hbnb():
 @app/route("/hbnb", strict_slashes=False)
 
 def display_text():
-    #Dislay the next line for this route
+    """
+    Dislay the next line for this route
+    """
     return "HBTN"
 
 if __name__ == "__main__":
